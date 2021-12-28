@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    display:flex;
+    /* flex-direction:row; */
+    justify-content: space-around;
+    background-color: #242B2E;
+    align-items: center;
+    height:50px;
+}
+#navbar>.logo{
+    width:100px;
+}
+#navbar>.logo>img{
+    width:100%;
+    height:100%;
+}
+
+.search-bar{
+    background-color:#242B2E;
+    width: 400px;
+    height:30px;
+    border-radius:8px
+}
+.search-bar>input{
+    width:88%;
+    border:none;
+    outline:none;
+    height:30px;
+    border-radius:8px;
+    font-size: 20px;
+    background-color: #727272;
+}
+.search-bar>span{
+           width:10%;
+        color:#727272;
+
+}
+
+.comics>a{
+     text-decoration:none;
+     color:#E21717;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+}
+#latestcomics{
+    background-image:url("https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* background-position: center; */
+    /* width:100%; */
+    height:100vh;
+    
+}
+#search-res{
+    color:#ffff;
+    font-size: 20px;
+}
